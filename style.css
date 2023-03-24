@@ -210,55 +210,6 @@
     top: 10px;
 }
 
-.nut_button{
-    background-color: #f3f4f6;
-    width: 300px;
-    height: 40px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 70px;
-}
-
-
-.dropdown{
-    display: inline-block;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.noidung-button{
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    right: 20px;
-    background-color: #dadddd;
-    border-radius: 5px;
-    position: absolute;
-}
-
-.noidung-button div{
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    border-radius: 5px;
-}
-
-.dropdown:hover .noidung-button{
-    display: block;
-}
-
-.noidung-button div:hover{
-    background-color: #e9e9e9;
-}
-
-.text-nut-bottom{
-    margin-left: 20px;
-}
-
 #noidung-text{
     display: flex;
     justify-content: space-between;

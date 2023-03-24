@@ -123,3 +123,143 @@
     justify-content: space-between;
     margin-top: 25px;
 }
+
+#grip-baner{
+    display: grid;
+    grid-template-areas: 
+    'it1 it1 it3 it4'
+    'it1 it1 it7 it8';
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#grip-baner > div{
+    padding: 0px;
+}
+
+
+.item-1{
+    grid-area: it1;
+}
+
+.item-3{
+    grid-area: it3;
+}
+
+.item-7{
+    grid-area: it4;
+}
+
+.item-8{
+    grid-area: it7;
+}
+
+.item-4{
+    grid-area: it8;
+    width: 29px;
+}
+
+#text-product{
+    width: 777px;
+
+}
+
+.text-ads{
+    font-size: 14.5px;
+    margin-top: 15px;
+}
+
+.Product-description{
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.icon{
+    display: flex;
+    width: 380px;
+    height: 100px;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.icon-item{
+    display: flex;
+    align-items: center;
+}
+
+.icon-text{
+    margin-left: 10px;
+}
+
+#text-table{
+    width: 340px;
+    height: 390px;
+    position: relative;
+    border-style: solid;
+    border: 2px solid #f5f5f5;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.tien{
+    font-size: 35px;
+    color: #00bdd6;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.nut_button{
+    background-color: #f3f4f6;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 70px;
+}
+
+
+.dropdown{
+    display: inline-block;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.noidung-button{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    right: 20px;
+    background-color: #dadddd;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.noidung-button div{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdown:hover .noidung-button{
+    display: block;
+}
+
+.noidung-button div:hover{
+    background-color: #e9e9e9;
+}
+
+.text-nut-bottom{
+    margin-left: 20px;
+}
+
+#noidung-text{
+    display: flex;
+    justify-content: space-between;
+}

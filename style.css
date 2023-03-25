@@ -23,7 +23,7 @@
 }
 
 #noi-dung-w100-h2030-mg130{
-    height: 2030px;
+    height: 2100px;
     margin-left: 130px;
     margin-top: 55px;
     margin-right: 130px;
@@ -32,7 +32,7 @@
 #bottom-w100-h100{
     width: 100%;
     height: 562px;
-    background-color: blue;
+    border-top: solid 2px #e9e7e7;
 }
 
 #menu-left{
@@ -194,7 +194,7 @@
 
 #text-table{
     width: 340px;
-    height: 390px;
+    height: 410px;
     position: relative;
     border-style: solid;
     border: 2px solid #f5f5f5;
@@ -213,4 +213,345 @@
 #noidung-text{
     display: flex;
     justify-content: space-between;
+}
+
+.drop-text1{
+    background-color: #f3f4f6;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 75px;
+}
+
+.drop-text2{
+    background-color: #f3f4f6;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.drop-text3{
+    background-color: #f3f4f6;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.drop-text4{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.drop-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-text{
+    margin-left: 10px;
+}
+.bx-chevron-down{
+    margin-right: 10px;
+}
+
+.total-text{
+    margin-left: 10px;
+    color: #9095a0;
+}
+
+.total-tien{
+    margin-right: 10px;
+}
+
+.drop-text5{
+    background-color: #00bdd6;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.total-text-buy{
+    color: #ffff;
+}
+
+.drop-text6{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 15px;
+    border: solid 2px #00bdd6;
+}
+
+#review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tite-review-all{
+    height: 385px;
+    margin-top: 40px;
+    border-top: solid 2px #f6f7f8;
+    border-bottom: solid 2px #f6f7f8;
+    display: flex;
+    flex-direction: column;
+}
+
+.review-danhgia{
+    display: flex;
+    align-items: center;
+    width: 230px;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.num-review{
+    color: #8e949f;
+    font-size: 13px;
+}
+
+.num-danhgia{
+    font-size: 13px;
+}
+
+.Reviews-title{
+    font-size: 25px;
+}
+
+.show-all-review{
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    color: #8e949f;
+}
+
+#review-cmt{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.use-cmt{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.name-use-title{
+    display: flex;
+    align-items: center;
+}
+.time-mini{
+    font-size: 15px;
+    color: #8e949f;
+    margin-left: 10px;
+}
+
+.cmt-name-danhgia{
+    margin-left: 10px;
+}
+
+.cmt-text{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+#review-cmt{
+    height: 230px;
+    align-items: center;
+}
+
+.cmt-phai{
+    margin-right: 70px;
+}
+.show-all-review{
+    margin-top: 50px;
+}
+
+#related{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.related-products-see{
+    display: flex;
+    align-items: center;
+    color: #8e949f;
+}
+
+.see-more{
+    font-size: 13px;
+}
+
+.related-products{
+    font-size: 25px;
+}
+
+.img-img{
+    width: 300px;
+    height: 380px;
+    border-radius: 5px;
+    border: solid 2px #eeeeee;
+}
+
+#img-product{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.text-tim-porduct{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 15px;
+    justify-content: space-between;
+}
+.text-product{
+    font-size: 20px;
+}
+
+.tim-product{
+    margin-right: 15px;
+}
+
+.text-tien-product{
+    margin-left: 15px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #00bdd6;
+}
+
+.danhgia-iteam-product{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.danhgia-product{
+    margin-left: 15px;
+}
+
+.iteam-product{
+    margin-right: 15px;
+    font-size: 13px;
+    color: #8e949f;
+}
+
+#bottom-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#bottom-sub{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+#bottom-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.input-mail{
+    width: 265px;
+    height: 35px;
+    border: solid 1px #f3f4f6;
+    font-size: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #f3f4f6;
+}
+
+.input-sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+    width: 115px;
+    height: 35px;
+    background-color: #00bdd6;
+    color: #ffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#about{
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-1{
+    width: 13%;
+}
+
+.text-about{
+    font-size: 18px;
+}
+
+.text-mini{
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+#bottom-end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}
+.lean{
+    display: flex;
+    align-items: center;
+    width: 130px;
+    height: 35px;
+    background-color: #f3f4f6;
+    border-radius: 5px;
+    justify-content: center;
+    margin-left: 130px;
+}
+
+#icon-end{
+    display: flex;
+    align-items: center;
+    margin-right: 130px;
+    width: 150px;
+    justify-content: space-between;
+}
+
+#brand{
+    font-size: 13px;
+    color: #8e949f;
 }
